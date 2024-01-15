@@ -39,12 +39,12 @@ def pingColumn(ws1, columnHeader, files1, reset):
 
 
 if __name__ == "__main__":
-    # inFileName = "exampleWorkBook.xlsx"
-    inFileName = "новые 5 очередь РСМОБ.xlsm"
+    inFileName = "exampleWorkBook.xlsx"
+    # inFileName = "новые 5 очередь РСМОБ.xlsm"
     wb = openpyxl.load_workbook(inFileName, read_only=True)  # load workbook
-    # ws = wb.get_sheet_by_name("Sheet1")  # select worksheet
+    ws = wb.get_sheet_by_name("Sheet1")  # select worksheet
     # ws = wb["Камеры"]  # select worksheet
-    ws = wb["ping"]  # select worksheet
+    # ws = wb["ping"]  # select worksheet
 
     cp = "_pings_from_"
     files = {"successFile": "successful" + cp + inFileName.replace(".xlsx", ".txt"),

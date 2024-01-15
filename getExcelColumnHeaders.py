@@ -14,10 +14,10 @@ def getColumnHeaders(ws):
 
 
 def exampleUsage():
-    # wb = openpyxl.load_workbook("exampleWorkBook.xlsx", read_only=True)  # load workbook
-    wb = openpyxl.load_workbook("новые 5 очередь РСМОБ.xlsm", read_only=True)  # load workbook
-    # ws = wb.get_sheet_by_name("Sheet1")  # select worksheet
-    ws = wb["ping"]  # select worksheet
+    wb = openpyxl.load_workbook("exampleWorkBook.xlsx", read_only=True)  # load workbook
+    # wb = openpyxl.load_workbook("новые 5 очередь РСМОБ.xlsm", read_only=True)  # load workbook
+    ws = wb.get_sheet_by_name("Sheet1")  # select worksheet
+    # ws = wb["ping"]  # select worksheet
     # ws = wb["Камеры"]  # select worksheet
     headers = getColumnHeaders(ws)  # get list of headers
 
