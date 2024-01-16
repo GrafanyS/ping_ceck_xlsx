@@ -24,21 +24,25 @@ def banner():  # создаем функцию вызова баннера
     root.mainloop()
 
 
-hostname = '213.180.204.8'  # ya.ru
+# hostname = '213.180.204.8'  # ya.ru
+hostname = ["8.8.8.8", "8.8.4.4", "facebook.com", "192.168.1.1", "192.168.12.1"]
+
+
 def mine():
-# # запускаем бесконечный цикл опросов, если нулевые ответы ping
-#     a = 1
-#     while a == 1:
-#         response = os.system("ping -c 1 " + hostname)
-#         print(response)
-#         if response != 0:
-#             print(response)
-#             banner()
-    response = os.system("ping -c 4 " + hostname)
-    print(response)
-    if response != 0:
+    # запускаем бесконечный цикл опросов, если нулевые ответы ping
+    #     a = 1
+    #     while a == 1:
+    #         response = os.system("ping -c 1 " + hostname)
+    #         print(response)
+    #         if response != 0:
+    #             print(response)
+    #             banner()
+    for ip in hostname:
+        response = os.system("ping -c 1 " + ip)
         print(response)
-        banner()
+        if response != 0:
+            print(response)
+            banner()
 
 
 if __name__ == "__main__":
