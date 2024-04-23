@@ -63,7 +63,9 @@ def sock_check(host, port=80):
 
 def check_ping_and_sock_list():
     start_time = time.time()  # Record the start time
-    with open('/home/valetovav/GIT/ping_excel_list/pythonProject/pingchecklist/ping_list.txt', 'r') as file:
+    ping_list = 'pythonProject/pingchecklist/ping_list.txt'
+    # sock_list = []
+    with open(ping_list, 'r') as file:
         for line in file:
             parts = line.strip().split(':')
             host = parts[0]
