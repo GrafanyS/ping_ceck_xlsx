@@ -1,5 +1,11 @@
 # Ping check servers
 
+Status of Last Deployment:<br>
+<img src="[https://github.com/GrafanyS/ping_ceck_xlsx/.github/workflows
+/python-app/badge.svg?branch=master"><br>
+
+Copyleft by Andrei Valetov 2023.
+
 **Purpose:** Pings all the servers in a specified column in a `.xlsx` file. 
 
 I used it to check if `500+ servers` were online/responsive. 
