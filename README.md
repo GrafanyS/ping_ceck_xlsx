@@ -4,7 +4,7 @@ Status of Last Deployment:<br>
 <img src="https://github.com/GrafanyS/ping_ceck_xlsx/workflows/Python-application/badge.svg?branch=main"><br>
 [![Python-application](https://github.com/GrafanyS/ping_ceck_xlsx/actions/workflows/python-app.yml)](https://github.com/GrafanyS/ping_ceck_xlsx/github/actions/workflows/python-app.yml/badge.svg)
 
-[![Python-application](https://github.com/GrafanyS/ping_ceck_xlsx/actionsworkflows/python-app.yml/badge.svg)](https://github.com/GrafanyS/ping_ceck_xlsx/actionsworkflows/python-app.yml/badge.svg)
+[![Python-application](https://github.com/GrafanyS/ping_ceck_xlsx/actions/workflows/python-app.yml/badge.svg)](https://github.com/GrafanyS/ping_ceck_xlsx/action/sworkflows/python-app.yml/badge.svg)
 
 
 
