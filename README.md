@@ -2,8 +2,9 @@
 
 Status of Last Deployment:<br>
 <img src="https://github.com/GrafanyS/ping_ceck_xlsx/workflows/Python-application/badge.svg?branch=main"><br>
-[![Python-application](https://github.com/GrafanyS/ping_ceck_xlsx/workflows/python-app.yml](https://github.com/GrafanyS/ping_ceck_xlsx/github/workflows/python-app.yml/badge.svg)
-[![GitHub Sigstore Prober](https://github.com/actions/attest-build-provenance/actions/workflows/prober-github.yml/badge.svg)](https://github.com/actions/attest-build-provenance/actions/workflows/prober-github.yml)
+[![Python-application](https://github.com/GrafanyS/ping_ceck_xlsx/actions/workflows/python-app.yml] https://github.com/GrafanyS/ping_ceck_xlsx/github/actions/workflows/python-app.yml/badge.svg)
+
+
 
 
 
