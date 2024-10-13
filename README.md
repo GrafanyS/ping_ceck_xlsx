@@ -1,13 +1,7 @@
 # Ping check servers
 
-Status of Last Deployment:<br>
-<img src="https://github.com/GrafanyS/ping_ceck_xlsx/workflows/Python-application/badge.svg?branch=main"><br>
-[![Python-application](https://github.com/GrafanyS/ping_ceck_xlsx/actions/workflows/python-app.yml)](https://github.com/GrafanyS/ping_ceck_xlsx/github/actions/workflows/python-app.yml/badge.svg)
-
+Status of Last Deployment:
 [![Python-application](https://github.com/GrafanyS/ping_ceck_xlsx/actions/workflows/python-app.yml/badge.svg)](https://github.com/GrafanyS/ping_ceck_xlsx/action/sworkflows/python-app.yml/badge.svg)
-
-
-
 
 Copyleft by Andrei Valetov 2023.
 
