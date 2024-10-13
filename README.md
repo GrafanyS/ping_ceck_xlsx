@@ -2,7 +2,7 @@
 
 Status of Last Deployment:<br>
 <img src="[https://github.com/GrafanyS/ping_ceck_xlsx/.github/workflows
-/python-app/badge.svg?branch=master"><br>
+/python-app/badge.svg?branch=main"><br>
 
 Copyleft by Andrei Valetov 2023.
 
